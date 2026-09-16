@@ -18,6 +18,21 @@ npm run package
 `npm start` opens the desktop app (Windows / macOS / Linux via Electron).
 `npm run make` builds platform installers with Electron Forge.
 
+## Releases
+
+Push a version tag to build Windows, macOS, and Linux packages with GitHub
+Actions and attach them to a GitHub Release:
+
+```bash
+git add .
+git commit -m "Prepare v1.0.0"
+git tag v1.0.0
+git push origin main --tags
+```
+
+The generated downloads appear on the release page after the workflow
+finishes. Update the version in `package.json` before creating each tag.
+
 ## Data
 
 On first launch the app creates:

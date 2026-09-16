@@ -48,3 +48,7 @@ Prices are stored as integer cents.
 The UI is built for touch and mouse together (44px primary actions, no
 hover-only controls). Electron itself is desktop-only. A later Android/iOS
 shell can wrap the same renderer; that is not part of this desktop build.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

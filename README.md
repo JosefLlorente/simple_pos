@@ -33,6 +33,18 @@ git push origin main --tags
 The generated downloads appear on the release page after the workflow
 finishes. Update the version in `package.json` before creating each tag.
 
+### Downloads
+
+Users only need to download the file for their operating system from the
+GitHub Release assets:
+
+- **Windows:** the `.exe` installer
+- **macOS:** the `.zip` file; open it and move Simple POS to Applications
+- **Linux Debian/Ubuntu:** the `.deb` package
+- **Linux Fedora/RHEL:** the `.rpm` package
+
+No Node.js, npm, or source code is required to run a downloaded release.
+
 ## Data
 
 On first launch the app creates:

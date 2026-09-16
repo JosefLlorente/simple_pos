@@ -6,6 +6,7 @@ module.exports = {
   packagerConfig: {
     asar: true,
     name: 'Simple POS',
+    executableName: 'simple_pos',
     appBundleId: 'com.simplepos.app',
   },
   rebuildConfig: {},
